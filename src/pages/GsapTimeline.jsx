@@ -73,6 +73,8 @@ const GsapTimeline = () => {
 
           if(timeline.paused()){
             timeline.play();
+          }else{
+            timeline.pause();
           }
         }}>Play/Pause</button>
 
