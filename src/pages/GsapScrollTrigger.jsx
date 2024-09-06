@@ -18,8 +18,8 @@ const GsapScrollTrigger = () => {
         scale:1.5,
         scrollTrigger:{
           trigger:box,
-          start:'bottom, bottom',
-          end:'top 30%',
+          start:'bottom bottom',
+          end:'top 10%',
           scrub:true,
 
         },
@@ -27,7 +27,7 @@ const GsapScrollTrigger = () => {
       })
     })
 
-  },[])
+  },{scope: scrollRef})
   return (
     <main>
       <h1>GsapScrollTrigger</h1>
