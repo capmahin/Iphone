@@ -12,7 +12,7 @@ const GsapScrollTrigger = () => {
     const boxes= gsap.utils.toArray(scrollRef.current.children);
     boxes.forEach((box)=>{
       gsap.to(box,{
-        x:150,
+        x:150 * (boxes.indexOf(box)),
         rotation:360,
         borderRadius:'100%',
         scale:1.5,
