@@ -19,7 +19,7 @@ const GsapScrollTrigger = () => {
         scrollTrigger:{
           trigger:box,
           start:'bottom, bottom',
-          end:'top 20%',
+          end:'top 30%',
           scrub:true,
 
         },
