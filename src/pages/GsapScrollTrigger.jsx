@@ -17,8 +17,13 @@ const GsapScrollTrigger = () => {
         borderRadius:'100%',
         scale:1.5,
         scrollTrigger:{
-          trigger:box
-        }
+          trigger:box,
+          start:'bottom, bottom',
+          end:'top 20%',
+          scrub:true,
+
+        },
+        ease:'power1.inOut'
       })
     })
 
